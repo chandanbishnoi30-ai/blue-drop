@@ -9,13 +9,6 @@ export const products: Product[] = [
     imageId: 'p1',
   },
   {
-    id: 'prod_002',
-    name: 'Family Pack',
-    description: 'Four 24oz bottles. Hydration for the whole family.',
-    price: 69.99,
-    imageId: 'p2',
-  },
-  {
     id: 'prod_003',
     name: 'Adventure Bottle',
     description: 'A rugged 32oz bottle for your outdoor adventures.',
@@ -68,13 +61,19 @@ export const orders: Order[] = [
     date: '2024-06-15',
     total: 69.99,
     status: 'Shipped',
-    items: [{ product: products[1], quantity: 1 }],
+    items: [{ product: {
+    id: 'prod_002',
+    name: 'Family Pack',
+    description: 'Four 24oz bottles. Hydration for the whole family.',
+    price: 69.99,
+    imageId: 'p2',
+  }, quantity: 1 }],
   },
   {
     id: 'ORD-12347',
     date: '2024-07-01',
     total: 29.99,
     status: 'Processing',
-    items: [{ product: products[2], quantity: 1 }],
+    items: [{ product: products[1], quantity: 1 }],
   },
 ];
