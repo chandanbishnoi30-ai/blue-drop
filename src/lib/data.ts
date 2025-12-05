@@ -9,13 +9,6 @@ export const products: Product[] = [
     imageId: 'p1',
   },
   {
-    id: 'prod_003',
-    name: 'Adventure Bottle',
-    description: 'A rugged 32oz bottle for your outdoor adventures.',
-    price: 29.99,
-    imageId: 'p3',
-  },
-  {
     id: 'prod_004',
     name: 'Infuser Bottle',
     description: 'A 28oz glass bottle with a built-in fruit infuser.',
@@ -74,6 +67,12 @@ export const orders: Order[] = [
     date: '2024-07-01',
     total: 29.99,
     status: 'Processing',
-    items: [{ product: products[1], quantity: 1 }],
+    items: [{ product: {
+    id: 'prod_003',
+    name: 'Adventure Bottle',
+    description: 'A rugged 32oz bottle for your outdoor adventures.',
+    price: 29.99,
+    imageId: 'p3',
+  }, quantity: 1 }],
   },
 ];
