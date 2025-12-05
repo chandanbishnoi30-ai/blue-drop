@@ -34,7 +34,7 @@ export const products: Product[] = [
     name: 'Blue Drop Bottle',
     description: 'The official Blue Drop 24oz bottle, with our logo.',
     price: 22.99,
-    imageId: 'p5',
+    imageId: 'p1',
   },
   {
     id: 'acc_001',
