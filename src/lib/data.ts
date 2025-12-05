@@ -30,6 +30,13 @@ export const products: Product[] = [
     imageId: 'p4',
   },
   {
+    id: 'prod_005',
+    name: 'Blue Drop Bottle',
+    description: 'The official Blue Drop 24oz bottle, with our logo.',
+    price: 22.99,
+    imageId: 'p5',
+  },
+  {
     id: 'acc_001',
     name: 'Cleaning Brush Set',
     description: 'Keep your bottles sparkling clean with this custom brush set.',
