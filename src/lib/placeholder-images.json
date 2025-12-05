@@ -1,3 +1,40 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "p1",
+      "description": "A single modern water bottle on a clean background.",
+      "imageUrl": "https://images.unsplash.com/photo-1561041695-d2fadf9f318c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3YXRlciUyMGJvdHRsZXxlbnwwfHx8fDE3NjQ4MTczMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "water bottle"
+    },
+    {
+      "id": "p2",
+      "description": "A collection of four colorful water bottles, arranged as a family set.",
+      "imageUrl": "https://images.unsplash.com/photo-1625708458528-802ec79b1ed8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx3YXRlciUyMGJvdHRsZXN8ZW58MHx8fHwxNzY0ODgzODkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "water bottles"
+    },
+    {
+      "id": "p3",
+      "description": "A durable water bottle in an outdoor setting, perhaps on a mountain or trail.",
+      "imageUrl": "https://images.unsplash.com/photo-1595931285573-438bd0882c29?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxvdXRkb29ycyUyMGFkdmVudHVyZXxlbnwwfHx8fDE3NjQ5MzQ3Mjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "outdoors adventure"
+    },
+    {
+      "id": "p4",
+      "description": "A glass water bottle with fresh fruit like lemons and mint inside.",
+      "imageUrl": "https://images.unsplash.com/photo-1628829706300-d1ed475bfc9e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxpbmZ1c2VkJTIwd2F0ZXJ8ZW58MHx8fHwxNzY0OTM0NzI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "infused water"
+    },
+    {
+      "id": "a1",
+      "description": "A set of long-handled brushes designed for cleaning inside water bottles.",
+      "imageUrl": "https://images.unsplash.com/photo-1631237535490-1d04af0f190d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8Y2xlYW5pbmclMjBicnVzaGVzfGVufDB8fHx8MTc2NDkzNDcyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cleaning brushes"
+    },
+    {
+      "id": "a2",
+      "description": "Several water bottle caps in different vibrant colors.",
+      "imageUrl": "https://images.unsplash.com/photo-1637730177972-0bb1d3a05c43?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxib3R0bGUlMjBjYXBzfGVufDB8fHx8MTc2NDkzNDcyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bottle caps"
+    }
+  ]
 }
