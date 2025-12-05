@@ -1,3 +1,4 @@
+
 import type { Product, Order } from './types';
 
 export const products: Product[] = [
@@ -7,13 +8,6 @@ export const products: Product[] = [
     description: 'One 24oz bottle. Perfect for getting started.',
     price: 19.99,
     imageId: 'p1',
-  },
-  {
-    id: 'prod_004',
-    name: 'Infuser Bottle',
-    description: 'A 28oz glass bottle with a built-in fruit infuser.',
-    price: 24.99,
-    imageId: 'p4',
   },
   {
     id: 'prod_005',
